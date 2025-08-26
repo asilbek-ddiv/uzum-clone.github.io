@@ -14,11 +14,11 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Olcha online do'koni clon",
-    template: "%s | My shop",
+    default: "Uzum online do'koni clone",
+    template: "%s | Uzum online do'kon clone",
   },
   description: "Eng zo‘r online do‘kon. Mahsulotlaringiz shu yerda!",
-  keywords: ["uzum market", "do‘kon", "online shop", "mahsulot"],
+  keywords: ["uzum market", "uzum", "dokon", "ecommerce", "e-commerce", "dukon", "online shop", "online", "shop", "uz", "mahsulot"],
   authors: [{ name: "Asilbek Developer" }],
   creator: "Asilbek Dev",
 };
