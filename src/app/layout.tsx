@@ -1,8 +1,12 @@
+import React from "react";
 import type { Metadata } from "next";
+import { Inter } from "next/font/google"
 import "./globals.css";
 import Navbar from "@/components/layout/header/Navbar";
 import Footer from "@/components/layout/footer/footer";
 import { SpeedInsights } from "@vercel/speed-insights/next"
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://uzum-market-online.vercel.app"),
@@ -46,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uz" suppressHydrationWarning>
-      <body>
+      <body className={inter.className}>
         <Navbar />
         <main>{children}</main>
         <Footer />
