@@ -4,8 +4,7 @@ import { routing } from "./routing";
 export const {
     Link,
     redirect,
-    getPathname,
-    permanentRedirect,
     usePathname,
-    useRouter
+    useRouter,
+    getPathname,
 } = createNavigation(routing);

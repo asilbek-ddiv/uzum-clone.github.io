@@ -7,7 +7,7 @@ const Home = () => {
 
   return (
     <div>
-      <h1>{t('header')}</h1>
+      <h1>{t('title')}</h1>
     </div>
   )
 }
