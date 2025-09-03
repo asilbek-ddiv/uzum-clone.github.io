@@ -295,7 +295,7 @@ const page = () => {
                     <h3 className='text-lg font-semibold'>Internetda qanday aldaydilar?</h3>
                     <p>Firibgarlar bizning logotipimiz, brend nomimizdan foydalanib, tanlov, aksiya yoki o&#39;yinlarda ishtirok etishni taklif qiladilar. Bunday “aksiyalarning” shartlari har xil, ammo mohiyati birdir — sizdan biror narsa sotib olish yoki to&#39;lashni so&#39;raydilar.</p>
                     <h3 className='text-lg font-semibold'>Qanday qilib firibgarlar qurboniga aylanib qolmaslik kerak?</h3>
-                    <p>Shubhali Telegram kanalini yoki ijtimoiy tarmoqlarda reklamani ko&#39;rdingizmi? Har qanday interaktivda ishtirok etishdan oldin ishonch telefonimizga <a href="" className='hover:text-blue-500 transition-all underline'><b>+998781501115</b></a> qo&#39;ng&#39;iroq qiling, biz 8:00 dan 22:00 gacha qo&#39;ng&#39;iroqlarni qabul qilamiz yoki bizga Telegramda <a href="" className='hover:text-blue-500 transition-all underline'><b>@Uzum_Support_Bot</b></a> orqali yozing, so&#39;rovlarni kechayu kunduz qabul qilamiz.</p>
+                    <p>Shubhali Telegram kanalini yoki ijtimoiy tarmoqlarda reklamani ko&#39;rdingizmi? Har qanday interaktivda ishtirok etishdan oldin ishonch telefonimizga <a href="" className='hover:text-blue-500 transition-all underline'><b>+998781501115</b></a> qo&#39;ng&#39;iroq qiling, biz 8:00 dan 22:00 gacha qo&#39;ng&#39;iroqlarni qabul qilamiz yoki bizga Telegramda <a href="https://t.me/Uzum_Support_Bot" className='hover:text-blue-500 transition-all underline'><b>@Uzum_Support_Bot</b></a> orqali yozing, so&#39;rovlarni kechayu kunduz qabul qilamiz.</p>
                     <p>Esda tuting, biz hech qachon kartaga pul o&#39;tkazish orqali to&#39;lovni talab qilmaymiz. Buyurtmalar uchun to&#39;lov faqat Uzum Market ilovasida yoki topshirish punktlarida amalga oshiriladi.</p>
                     <ul>
                         <li>Ilovalarni messenjerlar orqali yuklab olmang — bu xavfli! Uzum ekotizimining barcha ilovalarini faqat rasmiy do&#39;konlarda topish mumkin:</li>
@@ -312,12 +312,61 @@ const page = () => {
                         <li>- Firibgarlar Uzum Marketga juda o&#39;xshash brendlar ostida soxta akkaunt va kanallar yaratib, o&#39;zlarini xodim sifatida ko&#39;rsatadilar va messenjerlar orqali ilovani yuklab olish uchun havolalar yuboradilar. Ilova o&#39;rnatilgandan so&#39;ng, ular foydalanuvchilarning shaxsiy ma&#39;lumotlariga ega bo&#39;ladilar.</li>
                     </ul>
                     <h3 className='text-lg font-semibold'>Uzum Market rasmiy ijtimoiy tarmoqlarini qanday topish mumkin?</h3>
+                    <ul>
+                        <li>Bizning ijtimoiy tarmoqlarimiz:</li>
+                        <li><a href="https://instagram.com/uzum.market" className='hover:text-blue-500 transition-all underline'><b>Instagram.</b></a></li>
+                        <li><a href="https://t.me/+sAbd3lEepXtiYWQy" className='hover:text-blue-500 transition-all underline'><b>Telegram.</b></a></li>
+                        <li><a href="https://www.facebook.com/uzummarket" className='hover:text-blue-500 transition-all underline'><b>Facebook.</b></a></li>
+                    </ul>
+                    <p>Barcha sovrinli aksiyalar faqat shu yerda o‘tkaziladi.</p>
                     <h2 className='text-2xl font-semibold text-center'>«Arzon narxlar kafolati» aksiyasi</h2>
                     <h3 className='text-lg font-semibold'>Arzon narxlar kafolati bu nima?</h3>
+                    <p>Arzon narxlar kafolati - bu Uzum Marketdagi mahsulotni boshqa internet-do‘konlarida arzonroq narxda ko‘rsangiz, sizga promokod shaklida kompensatsiya olish imkonini beruvchi aksiya. Aksiyada ishtirok etuvchi internet-do‘konlar ro‘yxati bilan «Aksiyada ishtirok etayotgan internet-do‘konlar ro‘yxati» bo’limida tanishish mumkin.</p>
+                    <p>Aksiya bo'yicha yuridik oferta: <a href="https://legal.uzum.uz/Low-Price-Guarantee-uz.html" className='hover:text-blue-500 transition-all underline'><b>https://legal.uzum.uz/Low-Price-Guarantee-uz.html</b></a></p>
                     <h3 className='text-lg font-semibold'>Aksiyada qanday ishtirok etish mumkin?</h3>
+                    <ol className='list-decimal pl-5'>
+                        <li>Uzum Marketdan <b>«Arzon narx kafolati»</b> belgisi bo’lgan mahsulotni xarid qiling.</li>
+                        <li>
+                            Agar buyurtmani rasmiylashtirganingizdan so’ng 3 kun ichida xuddi shunday mahsulotni <b>«Aksiyada ishtirok etayotgan internet-do‘konlar ro‘yxati»</b> bo’limidagi internet-do’konlardan birida arzonroq narxda topsangiz, quyidagi ma’lumotlarni <a href="https://t.me/Uzum_Support_Bot" className='hover:text-blue-500 transition-all underline'><b>@Uzum_support_bot</b></a> botiga yuboring:
+                            <br />
+                            <br />
+                            - boshqa internet-do’kondagi mahsulot havolasi;
+                            <br />
+                            - Uzum Marketdagi mahsulot havolasi.
+                            <br />
+                            <br />
+                            Agar mahsulot aksiyaning barcha shartlariga javob bersa (batafsil «Aksiyada qanday mahsulotlar ishtirok etadi va ular qanday shartlarga mos kelishi kerak?» bo‘limida), sizga narx farqi miqdoridagi promokodni taqdim etamiz. Ushbu promokod bilan istalgan mahsulotni chegirma bilan xarid qilishingiz mumkin.
+                            <br />
+                            <br />
+                            Promokod shartlari:
+                            <br />
+                            <br />
+                            - Promokod mahsulotlar orasidagi narx farqiga teng miqdorda beriladi, ammo uning miqdori 1 000 000 so‘mdan oshmasligi kerak;<br />
+                            - Promokod istalgan mahsulotni xarid qilishda amal qiladi;<br />
+                            - Promokod mahsulotni qabul qilganingizdan so‘ng 11-kuni beriladi. <br />
+                            - Promokod taqdim etilgan kundan boshlab bir oy davomida amal qiladi. <br />
+                            - Promokod faqat Uzum Market ilovasida ishlatilishi mumkin;<br />
+                            - Promokod boshqa aksiyalar va chegirmalar bilan birga ishlatilishi mumkin;<br />
+                            - Promokodni pulga almashtirish mumkin emas; <br />
+                            - Mahsulot sifatiga e’tirozsiz qaytarilgan taqdirda promokod berilmaydi va qayta tiklanmaydi. <br />
+                        </li>
+                    </ol>
                     <h3 className='text-lg font-semibold'>Aksiyada qanday mahsulotlar ishtirok etadi va ular qanday shartlarga mos kelishi kerak?</h3>
+                    <p>Aksiyada faqat Uzum Marketda «Arzon narx kafolati» belgisi bo‘lgan mahsulotlar (Uzum kartasi bo‘yicha chegirmani hisobga olmagan holda) qatnashadi. Ushbu mahsulotlarni qidiruv orqali yoki ilovaning bosh sahifasidagi maxsus to‘plamlarda topishingiz mumkin. Ushbu mahsulotlarni qidiruv orqali yoki ilovaning bosh sahifasidagi maxsus to‘plamlarda topishingiz mumkin.</p>
+                    <p>Agar mahsulot turli model va ranglarda taqdim etilgan bo‘lsa, tanlagan model va rang aksiyada qatnashayotganiga ishonch hosil qiling. Buning uchun narxning ostida «Arzon narx kafolati» belgisi ko‘rinishi kerak.</p>
+                    <p>Aksiyada ishtirok etish uchun mahsulot bizga murojaat qilingan paytda quyidagi shartlarga javob berishi kerak:</p>
+                    <ol className='list-decimal pl-10'>
+                        <li>Mahsulot «Arzon narxn kafolati» belgisiga ega bo‘lishi kerak.</li>
+                        <li> Aksiyada ishtirok etayotgan boshqa internet-do‘kondagi mahsulot narxi arzonroq bo‘lishi kerak.</li>
+                        <li> Boshqa internet-do‘konlardagi muddatli to‘lov narxlari taqqoslashda ishtirok etmaydi.</li>
+                        <li> Mahsulot aynan bir xil bo‘lishi kerak (brend, model, xotira hajmi, rang, o‘lcham, komplektatsiya).</li>
+                        <li> Mahsulot boshqa internet-do‘konda mavjud bo‘lishi kerak.</li>
+                        <li> Internet-do‘kon aksiyada ishtirok etayotgan do’konlar ro‘yxatida bo‘lishi kerak.</li>
+                    </ol>
                     <h3 className='text-lg font-semibold'>Aksiyada ishtirok etuvchi internet-do&#39;konlar ro&#39;yxati</h3>
+                    <p>«Arzon narxlar kafolati» aksiyasida ishtirok etayotgan mahsulotlar quyidagi internet-do‘konlardagi mahsulotlar bilan taqqoslanishi mumkin: 220volt, alifshop, allgood, asiaposuda, asaxiy, babyhouse, babymarket, beautybox, bellstore, besttools, bloombeauty, boschhome, chado, chakana, charley, epamarket, express24, flymart, glotr, joybox, kansler, kidpoint, korzinkago, lochin, makeup, makeupstore, mediapark, mi_store, natural_beauty, olcha, radius, shop_tegen, texnomart, toshkentparfum, tut, yandex.uz, yarodilsya, yella, zavq, zoodmall.</p>
                     <h3 className='text-lg font-semibold'>Narx farqi qanday qaytariladi?</h3>
+                    <p>Aksiyaning barcha shartlariga rioya qilingan taqdirda, narxdagi farq promokod shaklida qaytariladi. Promokodni olish bosqichlari:</p>
                     <h3 className='text-lg font-semibold'>Buyurtma berishdan oldin promokod olish mumkinmi?</h3>
                     <h3 className='text-lg font-semibold'>Promokod olish uchun so&#39;rov qancha vaqt ko&#39;rib chiqiladi?</h3>
                     <h3 className='text-lg font-semibold'>Promokodni ishlatishga ulgurmagan bo&#39;lsam va amal qilish muddati tugagan bo&#39;lsa, nima bo&#39;ladi?</h3>
@@ -337,7 +386,7 @@ const page = () => {
                     <h2 className='text-2xl font-semibold text-center'>Savollaringiz bormi?</h2>
                     <h3 className='text-lg font-semibold'>Biz bilan bog&#39;laning</h3>
                     <p>Ishonch telefonimizga <a href="" className='hover:text-blue-500 transition-all underline'><b>+998781501115</b></a> qo&#39;ng&#39;iroq qiling. Biz 8:00 dan 22:00 gacha qo&#39;ng&#39;iroqlarni qabul qilamiz.</p>
-                    <p>Bizga Telegramda <a href="" className='hover:text-blue-500 transition-all underline'><b>@Uzum_Support_Bot</b></a> orqali yozing, so&#39;rovlarni kechayu kunduz qabul qilamiz.</p>
+                    <p>Bizga Telegramda <a href="https://t.me/Uzum_Support_Bot" className='hover:text-blue-500 transition-all underline'><b>@Uzum_Support_Bot</b></a> orqali yozing, so&#39;rovlarni kechayu kunduz qabul qilamiz.</p>
                 </div>
             </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Location from './Location'
+import { LanguageSelector } from './TranslateDrobdown'
 
 const Navbar = () => {
     return (
@@ -16,7 +17,7 @@ const Navbar = () => {
                             Topshirish punktlari
                         </a>
                     </div>
-                    <div className='hidden lg:block'>
+                    <div className='lg:flex items-center gap-2.5 hidden'>
                         <div className='flex items-center gap-2.5'>
                             <a
                                 href={"https://seller.uzum.uz/"}
@@ -43,8 +44,7 @@ const Navbar = () => {
                                 Buyurtmalarim
                             </span>
                         </div>
-
-                        <div></div>
+                        <LanguageSelector />
                     </div>
                 </div>
             </div>
