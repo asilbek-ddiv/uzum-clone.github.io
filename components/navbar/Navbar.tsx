@@ -6,15 +6,10 @@ import NavbarLanguage from "./NavbarLanguage"
 import Image from "next/image"
 import uzum_home from "../icons/uzum-home.svg"
 import { CartIcon, UserIcon, WishesIcon } from "../icons/icons"
-import React from "react"
+import NavbarCatalog from "./NavbarCatalog"
 
 const list = [
   {
-    id: "ad78v44r5e-g4rth1",
-    name: "Kirish",
-    icon: UserIcon,
-    href: "",
-  }, {
     id: "a-78v44r5e-g4rth2",
     name: "Saralangan",
     icon: WishesIcon,
@@ -52,26 +47,23 @@ const Navbar = () => {
           <Image src={uzum_home} alt="This is a picture" className="w-58 h-11" />
         </Link>
         <div>
-          dfgh
+          <NavbarCatalog />
         </div>
-        <div className="flex items-center gap-5">
+        <ul className="flex items-center gap-5">
+          <li></li>
           {list.map(item => {
-            const Icon = item.icon
-            return item.href && item.href.trim() !== '' ? (
-              <Link key={item.id} href={item.href} className="flex items-center gap-2.5">
-                <span><Icon /></span>
-                {item.name}
-              </Link>
-            ) : (
-              <div key={item.id} className="flex items-center gap-2.5 cursor-pointer">
-                <span><Icon /></span>
-                {item.name}
-              </div>
+            const Icon = item.icon;
+            const { id, name, href } = item
+            return (
+              <li key={id}>
+                <Link href={href} className="flex items-center gap-2.5">
+                  <span><Icon /></span>
+                  {name}
+                </Link>
+              </li>
             )
           })}
-
-
-        </div>
+        </ul>
       </nav>
     </header>
   )
