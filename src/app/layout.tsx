@@ -3,9 +3,11 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 
-const InterFont = Inter({
-  variable: "--font-inter",
+const inter = Inter({
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-inter",
+  display: "swap"
 });
 
 export default function RootLayout({
@@ -15,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${InterFont.variable} antialiased`}>
+      <body className={`${inter.className} antialiased`}>
         {children}
         <Analytics />
         <SpeedInsights />

@@ -1,10 +1,10 @@
-interface CitiesProps {
+export interface CitiesProps {
   id: number;
   name: string;
   isDefault: boolean | null;
 }
 
-const cities: CitiesProps[] = [
+export const cities: CitiesProps[] = [
   {
     id: 545,
     name: "Abdukarim",
@@ -2606,5 +2606,3 @@ const cities: CitiesProps[] = [
     isDefault: false,
   },
 ];
-
-export type { CitiesProps, cities };
