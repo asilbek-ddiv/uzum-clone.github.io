@@ -65,7 +65,7 @@ const Footer = () => {
                         </div>
                     )
                 })}
-                <div className="flex flex-col items-center gap-5 mt-5 lg:items-start">
+                <div className="flex flex-col items-center gap-5 mt-5 lg:mt-0 lg:items-start">
                     <div className="flex flex-col items-center gap-2.5 lg:items-start">
                         <span className="text-[15px] font-medium">Ilovani yuklab olish</span>
                         <ul className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">

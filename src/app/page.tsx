@@ -14,6 +14,7 @@ const Home = () => {
       <Navbar />
       <HeroSection />
       <Footer />
+      
     </>
   )
 };

@@ -1,0 +1,652 @@
+[
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "hildren": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "hildren": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "id": 10039,
+    "title": "Turizm, baliq ovi va ovchilik",
+    "slug": "turizm-baliq-ovi-va",
+    "image_url": "",
+    "children": [
+      {
+        "id": 15542,
+        "title": "Chodirlar, tentlar va shatyorlar",
+        "slug": "chodirlar-tentlar-va-shatyorlar",
+        "children": [
+          {
+            "id": 12633,
+            "name": "Chodirlar",
+            "slug": "chodirlar"
+          },
+          {
+            "id": 11812,
+            "name": "Tentlar va chodirlar",
+            "slug": "tentlar-va-chodirlar"
+          },
+          {
+            "id": 15544,
+            "name": "Aksessuarlar chodirlar va tentlar uchun",
+            "slug": "aksessuarlar-chodirlar-va-tentlar"
+          }
+        ]
+      }
+    ]
+  }
+]

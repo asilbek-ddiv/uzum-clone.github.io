@@ -12,38 +12,43 @@ import {
     CommandList,
 } from "@/components/ui/command"
 import { Button } from "@/components/ui/button"
-import { cities } from "@/database/cities"
-import type { CitiesProps } from "@/database/cities"
-import { STORE_KEY_SHARED_PANEL_LOCATION } from "next/dist/next-devtools/dev-overlay/shared"
+import type { CitiesProps } from "@/types/cities.type"
+import { getCities } from "@/services/cities.service"
 
 const STORAGE_KEY = "selected_city"
 
 export function CitySelector() {
     const [open, setOpen] = useState(false)
     const [selectedCity, setSelectedCity] = useState<CitiesProps | null>(null)
+    const [cities, setCities] = useState<CitiesProps[]>([])
 
     useEffect(() => {
-        try {
-            const saved = localStorage.getItem(STORAGE_KEY)
-            if (saved) {
-                const city = JSON.parse(saved) as CitiesProps
-                const exists = cities.some(c => c.id === city.id)
+        const fetchCities = async () => {
+            try {
+                const data = await getCities()
+                setCities(data)
 
-                if (exists) {
-                    setSelectedCity(city)
+                const saved = localStorage.getItem(STORAGE_KEY)
+                if (saved) {
+                    const city = JSON.parse(saved) as CitiesProps
+                    const exists = data.some((c: any) => c.id === city.id)
+                    if (exists) {
+                        setSelectedCity(city)
+                        return
+                    }
                 }
-            }
-            else {
-                const defaultCity = cities.find(c => c.isDefault)
+
+                const defaultCity = data.find((c: any) => c.isDefault)
                 if (defaultCity) {
                     setSelectedCity(defaultCity)
                     localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultCity))
                 }
+            } catch (error) {
+                console.warn("Shaharlar yuklanishda xato:", error)
             }
-        } catch (error) {
-            console.warn("Tanlangan shahar o‘qishda xato", error);
-
         }
+
+        fetchCities()
     }, [])
 
     const handleSelect = (city: CitiesProps) => {
@@ -52,7 +57,7 @@ export function CitySelector() {
         setOpen(false)
     }
 
-    const displayName = selectedCity?.name
+    const displayName = selectedCity?.name || "Shaharni tanlang"
 
     return (
         <>
@@ -72,20 +77,19 @@ export function CitySelector() {
 
                     <CommandList>
                         <CommandEmpty>Hozircha bu shaharga yetkazib berish yo‘q</CommandEmpty>
-
                         <CommandGroup heading="Barcha shaharlar">
-                            {cities.map(city => (
+                            {cities.map(citi => (
                                 <CommandItem
-                                    key={city.id}
-                                    value={city.name.toLowerCase()}
-                                    onSelect={() => handleSelect(city)}
+                                    key={citi.id}
+                                    value={citi.name.toLowerCase()}
+                                    onSelect={() => handleSelect(citi)}
                                     className="cursor-pointer"
                                 >
-                                    <span>{city.name}</span>
-                                    {city.isDefault && (
+                                    <span>{citi.name}</span>
+                                    {citi.isDefault && (
                                         <span className="ml-auto text-xs text-muted-foreground">(asosiy)</span>
                                     )}
-                                    {selectedCity?.id === city.id && (
+                                    {selectedCity?.id === citi.id && (
                                         <span className="ml-auto text-xs text-primary"><CircleCheckBig /></span>
                                     )}
                                 </CommandItem>

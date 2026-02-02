@@ -1,11 +1,12 @@
 import Image from "next/image"
 import Link from "next/link"
-import { GalleryVerticalEnd, Heart, Search, User } from "lucide-react"
+import { Heart, Search, User } from "lucide-react"
 import { InputGroup, InputGroupButton, InputGroupInput } from "../ui/input-group"
 import { Button } from "../ui/button"
-import { CitySelector } from "@/components/navbar/CitiesLocation"
 import uzumMarketSvg from "@/assets/svg/uzummarket.svg"
 import BaskedSvg from "@/assets/svg/basked.svg"
+import { CitySelector } from "./CitiesLocation"
+import Catalog from "./Catalog"
 
 const NavLink1 = [
     { id: 1, name: "Sotuvchi bo'lish", href: "https://seller.uzum.uz/" },
@@ -50,10 +51,7 @@ const Navbar = () => {
                     <Image className="w-55 h-8" src={uzumMarketSvg} alt="This is a uzum market icon" />
                 </Link>
                 <div className="w-full lg:w-170 flex items-center gap-2.5">
-                    <div className="hidden lg:flex items-center gap-2 bg-[rgb(229,229,255)] hover:bg-[rgb(206,204,255)] transition-colors duration-300 py-2 px-4 rounded-[3px]">
-                        <GalleryVerticalEnd strokeWidth={1.75} size={23} color="#7F4DFF" />
-                        Katalog
-                    </div>
+                    <Catalog />
                     <InputGroup className="h-10 rounded-[3px] border-gray-300 shadow-none">
                         <Search strokeWidth={1.75} className="size-5 ml-2 lg:hidden" />
                         <InputGroupInput placeholder="Mahsulotlar va turkumlar izlash" />
