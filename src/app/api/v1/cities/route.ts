@@ -9,7 +9,7 @@ const ALLOWED_ORIGINS = [
   "https://uzum-clone-uz.vercel.app",
 ];
 
-export async function GET(req: NextRequest) {
+export async function GET(req: NextRequest, context: { params: {} }) {
   const origin = req.headers.get("origin");
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0] || "unknown";
 

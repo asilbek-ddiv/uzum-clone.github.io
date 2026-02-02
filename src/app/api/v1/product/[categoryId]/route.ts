@@ -11,11 +11,11 @@ const ALLOWED_ORIGINS = [
 
 export async function GET(
   req: NextRequest,
-  { params }: { params: { categoryId: string } },
+  context: { params: { categoryId: string } },
 ) {
   const origin = req.headers.get("origin");
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0] || "unknown";
-  const categoryId = parseInt(params.categoryId);
+  const categoryId = parseInt(context.params.categoryId);
   const { allowed } = rateLimit(ip);
 
   if (!allowed) {
