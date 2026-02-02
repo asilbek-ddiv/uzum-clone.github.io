@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+import { NextRequest, NextResponse } from "next/server";
 import cities from "@/data/cities.json";
 import { rateLimit } from "@/lib/rate-limit";
 
@@ -9,7 +9,7 @@ const ALLOWED_ORIGINS = [
   "https://uzum-clone-uz.vercel.app",
 ];
 
-export async function GET(req: NextResponse) {
+export async function GET(req: NextRequest) {
   const origin = req.headers.get("origin");
   const ip = req.headers.get("x-forwarded-for")?.split(",")[0] || "unknown";
 
