@@ -1,10 +1,10 @@
 import Image from "next/image"
-import AppleSvg from "@/images/apple.svg"
-import GooglePlaySvg from "@/images/googlePlay.svg"
-import Instagram from "@/images/instagram.svg"
-import Telegram from "@/images/telegram.svg"
-import Facebook from "@/images/facebook.svg"
-import YouTube from "@/images/youtube.svg"
+import AppleSvg from "@/assets/svg/apple.svg"
+import GooglePlaySvg from "@/assets/svg/googlePlay.svg"
+import Instagram from "@/assets/svg/instagram.svg"
+import Telegram from "@/assets/svg/telegram.svg"
+import Facebook from "@/assets/svg/facebook.svg"
+import YouTube from "@/assets/svg/youtube.svg"
 
 const FooterItem = [
     {
@@ -36,26 +36,26 @@ const FooterItem = [
 
 const tarmoqlar = [
     { id: 11, href: "https://www.instagram.com/uzum.market", img: Instagram },
-    { id: 11, href: "https://t.me/uzum_market", img: Telegram },
-    { id: 11, href: "https://www.facebook.com/uzummarket", img: Facebook },
-    { id: 11, href: "https://www.youtube.com/@uzummarket", img: YouTube }
+    { id: 12, href: "https://t.me/uzum_market", img: Telegram },
+    { id: 13, href: "https://www.facebook.com/uzummarket", img: Facebook },
+    { id: 14, href: "https://www.youtube.com/@uzummarket", img: YouTube }
 ]
 
 const Footer = () => {
     return (
-        <footer className="flex flex-col max-w-315 mx-auto mb-5">
-            <div className="flex justify-between">
+        <footer className="flex flex-col max-w-310 mx-auto mb-5">
+            <div className="flex flex-col justify-between lg:flex-row">
                 {FooterItem.map((item) => {
                     const { children, id, title } = item
                     return (
-                        <div key={id}>
-                            <span className="text-[15px] font-medium">{title}</span>
-                            <ul>
+                        <div key={id} className="flex flex-col items-center justify-center lg:items-start lg:justify-start">
+                            <span className="text-[15px] font-medium my-1">{title}</span>
+                            <ul className="flex flex-col items-center justify-center gap-y-1 lg:items-start lg:justify-start">
                                 {children.map((item) => {
                                     const { href, id, name } = item
                                     return (
                                         <li key={id}>
-                                            <a className="text-[12px] text-gray-600 font-medium" href={href} target="_blank" rel="noopener noreferrer">
+                                            <a className="text-[12px] text-gray-600 font-medium hover:text-gray-800 transition-colors duration-300" href={href} target="_blank" rel="noopener noreferrer">
                                                 {name}
                                             </a>
                                         </li>
@@ -65,10 +65,10 @@ const Footer = () => {
                         </div>
                     )
                 })}
-                <div className="flex flex-col gap-5">
-                    <div className="flex flex-col gap-2.5">
+                <div className="flex flex-col items-center gap-5 mt-5 lg:items-start">
+                    <div className="flex flex-col items-center gap-2.5 lg:items-start">
                         <span className="text-[15px] font-medium">Ilovani yuklab olish</span>
-                        <ul className="flex items-center gap-5">
+                        <ul className="flex flex-col items-center gap-5 lg:flex-row lg:items-start">
                             <li>
                                 <a className="flex items-center gap-1" href="http://" target="_blank" rel="noopener noreferrer">
                                     <Image className="size-8" src={AppleSvg} alt="Apple Icon" />
@@ -86,8 +86,8 @@ const Footer = () => {
                     <div>
                         <span className="text-[15px] font-medium">Uzum ijtimoiy tarmoqlarda</span>
                         <ul className="flex items-center gap-3">
-                            {tarmoqlar.map((item) => {
-                                const { href, id, img } = item
+                            {tarmoqlar.map((tarmoq) => {
+                                const { href, id, img } = tarmoq
                                 return (
                                     <li key={id} className="mt-2.5">
                                         <a href={href} target="_blank" rel="noopener noreferrer">

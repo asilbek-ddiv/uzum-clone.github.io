@@ -58,7 +58,7 @@ export function CitySelector() {
         <>
             <Button
                 variant="outline"
-                className="h-6 gap-1 p-0 bg-transparent font-medium border-none shadow-none cursor-pointer"
+                className="h-6 gap-1 p-0 bg-transparent font-medium border-none shadow-none hover:bg-transparent cursor-pointer"
                 onClick={() => setOpen(true)}
             >
                 <MapPin className="size-5" strokeWidth={1.6} />
