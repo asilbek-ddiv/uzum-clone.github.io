@@ -48,7 +48,7 @@ const Navbar = () => {
             {/* // * Navbar Bottom Header */}
             <nav className="max-w-310 mx-auto flex items-center justify-between py-2.5 lg:py-5 px-2.5 md:px-5 lg:p-0">
                 <Link href={"/"} className="hidden lg:block">
-                    <Image className="w-55 h-8" src={uzumMarketSvg} alt="This is a uzum market icon" />
+                    <Image src={uzumMarketSvg} alt="This is a uzum market icon" />
                 </Link>
                 <div className="w-full lg:w-170 flex items-center gap-2.5">
                     <Catalog />
